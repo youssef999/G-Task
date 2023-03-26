@@ -9,9 +9,9 @@ import 'all_data_view.dart';
 
 class RegisterScreen extends StatelessWidget{
 
-  String date,txt;
+  String date,txt,time;
 
-  RegisterScreen({Key? key,required this.date,required this.txt}) : super(key: key);
+  RegisterScreen({Key? key,required this.date,required this.txt,required this.time}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
